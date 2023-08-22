@@ -1,0 +1,16 @@
+
+@use '_Mixins.module.scss' as *;
+@use '_Variables.module.scss' as *;
+
+.container{
+  height: 100%;
+  @include flexRow;
+  justify-content: space-between;
+  margin-inline: 1rem;
+  align-items: center;
+  .right{
+    a{
+      color: $mainClr;
+    }
+  }
+}

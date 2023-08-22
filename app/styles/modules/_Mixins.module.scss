@@ -1,0 +1,43 @@
+
+// Default Mixins
+@mixin gridCenter {
+    display: grid;
+    place-items: center;
+}
+
+@mixin flexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin flexRow {
+    display: flex;
+    flex-direction: row;
+}
+
+@mixin borderRed {
+    outline: 1px solid red;
+}
+
+@mixin borderWhite {
+  outline: 1px solid white;
+}
+
+@mixin borderYellow {
+  outline: 5px solid yellow;
+}
+
+@mixin borderBlue {
+    outline: 1px solid rgb(27, 27, 246);
+}
+
+
+@mixin mInline{
+    margin-inline: auto;
+}
+
+@mixin inputBorderReset{
+  border: none;
+  outline: none;
+  background: transparent;
+}

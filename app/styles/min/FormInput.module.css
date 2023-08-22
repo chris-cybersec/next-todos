@@ -1,0 +1,1 @@
+.container input{border:none;outline:none;background:rgba(0,0,0,0);color:#fff}.container input[type=text]{border:1px solid currentColor;border-radius:2px;padding-inline-start:.2rem;padding-block:.2rem;letter-spacing:1px;font-weight:200;margin-inline-end:.8rem}.container input[type=submit]{font-size:1.6rem;translate:0px 5px;cursor:pointer}.error{color:#ffe0ac;font-weight:600}

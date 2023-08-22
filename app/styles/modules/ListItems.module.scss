@@ -1,0 +1,17 @@
+
+@use "_Mixins.module.scss" as *;
+@use "_Variables.module.scss" as *;
+
+.container {
+  @include flexRow;
+  background: $mainBg;
+  color: $mainClr;
+  width: 80%;
+  padding-inline: 0.5rem;
+  padding-block: 0.2rem;
+  border-radius: 5px;
+  margin-block-start: 1rem;
+  p{
+    margin-inline-start: 1rem;
+  }
+}

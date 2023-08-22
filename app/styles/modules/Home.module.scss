@@ -1,0 +1,20 @@
+@use "_Mixins.module.scss" as *;
+@use "_Variables.module.scss" as *;
+
+.container {
+  border: 1px solid $altBg;
+  border-radius: 2px;
+  width: 20rem;
+  height: 30rem;
+  .top {
+    @include gridCenter;
+    padding-block: 0.5rem;
+    background: $altBg;
+    color: $mainClr;
+  }
+  .content {
+    @include flexColumn;
+    align-items: center;
+  }
+}
+
