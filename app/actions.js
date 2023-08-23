@@ -12,4 +12,17 @@ const addTodo = async (todo) => {
   return res.json();
 };
 
-export { addTodo };
+//***********************************deleteOne
+const deleteOne = async(id) => {
+  const endpoint = `http://127.0.0.1:2032/api/delete-one`;
+  const config = {
+    method: "DELETE",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(id),
+  };
+
+  const res = await fetch(endpoint, config)
+  return res.json()
+}
+
+export { addTodo, deleteOne };
