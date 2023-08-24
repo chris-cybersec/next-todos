@@ -1,0 +1,1 @@
+.container{height:5rem;display:grid;place-items:center}.container p{font-weight:200}.container .deleteAll{color:red;font-weight:300;border:1px solid red;border-radius:2px;background:#97b4ff;padding:.2rem .5rem;cursor:pointer;transition:all .2s ease-in}.container .deleteAll:hover{background:#6a2b2a;color:#fff;box-shadow:0px 0px 8px 1px #565656}

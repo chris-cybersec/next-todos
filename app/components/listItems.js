@@ -12,7 +12,7 @@ const ListItems = async () => {
 
   const datas = todos?.map((data) => {
     const { _id, todo } = data;
-    // console.log(todo);
+    // console.log(data);
 
     return (
       <div className={styles.container} key={_id}>
@@ -21,7 +21,8 @@ const ListItems = async () => {
       </div>
     );
   });
-  return datas;
+
+  return  datas;
 };
 
 export default ListItems;
